@@ -2,7 +2,8 @@ import React, { useEffect } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Alert } from 'react-native';
 import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 import { useRouter, useLocalSearchParams } from 'expo-router';
-import Svg, { QRCode } from 'react-native-svg';
+import Svg from 'react-native-svg';
+import QRCode from 'react-native-qrcode-svg';
 import useStore from '../../store/useStore';
 
 const AGRI_GREEN = '#2E7D32';
