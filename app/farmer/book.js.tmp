@@ -1,0 +1,3 @@
+
+  // Added picker logic back
+  const mandiModalVisible = mandis.length > 1 && !selectedMandi;
